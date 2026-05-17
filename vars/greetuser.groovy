@@ -1,4 +1,4 @@
-def call(string name, string todayDate) {
+def call(String name, String todayDate) {
 echo "Hi ${name} today is ${todayDate}"
 }
 
