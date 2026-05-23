@@ -10,7 +10,7 @@ def call(Map config = [:]) {
                     script {
 
                         def props = readProperties(
-                            text: libraryResource('config.properties')
+                            text: libraryResource('ansible-config.properties')
                         )
 
                         env.SLACK_CHANNEL_NAME  = props['SLACK_CHANNEL_NAME']
